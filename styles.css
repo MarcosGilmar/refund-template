@@ -245,6 +245,7 @@ aside ul {
   font-size: 0.87rem;
   color: #1f2523;
   font-weight: 600;
+  margin-left: auto;
 }
 
 .expense-amount small {
@@ -252,6 +253,17 @@ aside ul {
   color: #4d5c57;
   font-weight: 400;
   margin-right: 0.25rem;
+}
+
+.expense-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.expense-info {
+  display: flex;
+  flex-direction: column;
 }
 
 .remove-icon {
